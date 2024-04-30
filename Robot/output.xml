@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210126 20:08:28.114" rpa="false">
+<suite id="s1" name="LoginTC" source="C:\Users\kp\PycharmProjects\Robot\LoginTC">
+<kw name="Before exe" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>started execution</arg>
+</arguments>
+<msg timestamp="20210126 20:08:28.155" level="INFO">started execution</msg>
+<status status="PASS" starttime="20210126 20:08:28.155" endtime="20210126 20:08:28.155"></status>
+</kw>
+<status status="PASS" starttime="20210126 20:08:28.155" endtime="20210126 20:08:28.155"></status>
+</kw>
+<suite id="s1-s1" name="TC 001" source="C:\Users\kp\PycharmProjects\Robot\LoginTC\TC_001.robot">
+<test id="s1-s1-t1" name="Execution TC01">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20210126 20:08:28.451" level="INFO">Opening browser 'Chrome' to base url 'https://qa-pegasus2-hns.figmd.com/signup/login'.</msg>
+<status status="PASS" starttime="20210126 20:08:28.451" endtime="20210126 20:08:40.342"></status>
+</kw>
+<status status="PASS" starttime="20210126 20:08:28.451" endtime="20210126 20:08:40.342" critical="yes"></status>
+</test>
+<doc>inside settings</doc>
+<status status="PASS" starttime="20210126 20:08:28.155" endtime="20210126 20:08:40.342"></status>
+</suite>
+<suite id="s1-s2" name="TC 002" source="C:\Users\kp\PycharmProjects\Robot\LoginTC\TC_002.robot">
+<test id="s1-s2-t1" name="Execution TC02">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20210126 20:08:40.358" level="INFO">Opening browser 'Chrome' to base url 'https://qa-pegasus2-apta.figmd.com/signup/login'.</msg>
+<status status="PASS" starttime="20210126 20:08:40.358" endtime="20210126 20:08:49.572"></status>
+</kw>
+<status status="PASS" starttime="20210126 20:08:40.358" endtime="20210126 20:08:49.572" critical="yes"></status>
+</test>
+<doc>inside settings</doc>
+<status status="PASS" starttime="20210126 20:08:40.350" endtime="20210126 20:08:49.580"></status>
+</suite>
+<kw name="After exe" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>executiopn ending</arg>
+</arguments>
+<msg timestamp="20210126 20:08:49.588" level="INFO">executiopn ending</msg>
+<status status="PASS" starttime="20210126 20:08:49.588" endtime="20210126 20:08:49.588"></status>
+</kw>
+<status status="PASS" starttime="20210126 20:08:49.588" endtime="20210126 20:08:49.596"></status>
+</kw>
+<status status="PASS" starttime="20210126 20:08:28.114" endtime="20210126 20:08:49.596"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="LoginTC">LoginTC</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TC 001">LoginTC.TC 001</stat>
+<stat pass="1" fail="0" id="s1-s2" name="TC 002">LoginTC.TC 002</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

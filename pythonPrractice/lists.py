@@ -1,0 +1,11 @@
+'''list1=[9,2,3,3,1,5,3,1]
+list1.reverse()
+print(list1)
+print(list1.count(1))
+list2=[1,3,5,7]
+list1.extend(list2)
+print(sum(list1))
+list1.insert(0,8)
+print(list1)
+list1[1:3]=[0,0]
+print(list1)

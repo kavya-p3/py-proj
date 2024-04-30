@@ -1,0 +1,5 @@
+dict={'name':'kavya','age': 30 , 'height': 5.7}
+dict['name']='kannada'
+print(dict)
+x=dict.popitem()
+print(x)

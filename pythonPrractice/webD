@@ -1,0 +1,6 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome(executable_path="C:/Users/kp/Downloads/chromedriver_win32 (1)/chromedriver.exe")
+driver.get("https://www.edureka.co/blog/jmeter-tutorial/")
+print(driver.title)
